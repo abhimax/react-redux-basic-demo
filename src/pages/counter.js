@@ -12,7 +12,7 @@ export default function Counter() {
         <h2>Here is value</h2>
    {counter==undefined?
    <></>:
-        <h3 class="count">{counter}</h3>
+        <h3 className="count">{counter}</h3>
     }
 
       </div>

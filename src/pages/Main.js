@@ -16,9 +16,9 @@ export default function App() {
     <div className="app">
       <div>
         <div>
-          <h3 class="count">{counter}</h3>
+          <h3 className="count">{counter}</h3>
         </div>
-        <div class="buttons">
+        <div className="buttons">
           <Button title={"+"} onClick={() => dispatch(Increment())} />
           <Button title={"-"} onClick={() => dispatch(Decrement())} />
         </div>
